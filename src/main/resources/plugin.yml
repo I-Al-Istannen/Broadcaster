@@ -1,0 +1,5 @@
+name: Broadcaster
+version: ${project.version}
+main: me.ialistannen.broadcaster.Broadcaster
+authors: [I_Al_Istannen]
+description: A small broadcaster plugin

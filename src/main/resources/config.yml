@@ -1,0 +1,37 @@
+# Colors using '&' as color char
+
+# The time format is:
+#   "xxS" ==> milliseconds
+#   "xxt" ==> ticks
+#   "xxs" ==> seconds
+#   "xxm" ==> minutes
+#   "xxh" ==> hours
+#   "xxd" ==> days
+
+# All sound names can be found here: http://minecraft.gamepedia.com/Sounds.json
+
+sender:
+  # The delay between checks. Smaller ==> finer control, but more laggy
+  check-delay: "1s"
+messages:
+  # A message
+  one:
+    # The delay between sending
+    delay: "5s"
+    # The messages to send
+    messages:
+    - " &6Hey &aI am a default message&6!"
+    - " &6And I am line two :)"
+    # The sound (can be omitted)
+    sound:
+      # The name of the sound
+      name: "block.note.pling"
+      # The volume. You need to write the decimal point!
+      volume: 100.0
+      # The pitch. You need to write the decimal point!
+      pitch: 20.0
+  # Another message
+  two:
+    delay: "1m"
+    messages:
+    - "A second message"
